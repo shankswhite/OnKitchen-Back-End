@@ -1,19 +1,21 @@
-# OnKitchen
+This is a website application project for NEU CS5004 Class Group Project.
+This project is based on Spring Boot 2023 version. We used the latest Spring Data JPA to implement database part.
 
-## 1. 启动后端服务
-首先需要启动后端服务来确保数据能被前端正确获取。
+The website link: 
+onkitchen.online
 
-使用IntelliJ打开FoodAppDemo。
-在src目录下运行主程序，等待Terminal加载完毕。
-访问后端数据
-一旦后端服务启动，就可以在浏览器中访问以下地址来查看数据：
+Developers: 
+Liuyi Yang, Xiaofeng Zhao, Junhui Su
 
-查看所有菜谱数据：http://localhost:8080/api/v1/recipes
-查看单个菜谱数据：将食谱的id替换为具体的ID值后访问 http://localhost:8080/api/v1/recipes/食谱的id
+How to run:
+1. For Unit Test:
+   1) Setting the whole project as a maven project in your IDE;
+   2) Then run unittest at test.java.info.liuyyang.FoodAppDemo folder.
 
-## 2. 启动前端服务
-在启动后端服务之后，需要启动前端服务来查看应用界面。
+2. For Run the website on localhost is a little tricky, it means you may need to contact me to authorize you to visit our MongoDB database:
+   1) Setting up database user information in .env file
+   2) Setting up database user permission
+   3) Run the file: FoodAppDemoApplication.class
+  
+If you wanna test database part, please just email us and let us know, we are willing to do it for you.
 
-文件夹：ReactDev
-运行前端服务，该服务默认在3000端口开启。
-请注意：尽管前端服务在3000端口运行，后端服务在8080端口的启动是必须的，因为前端服务依赖于后端服务提供的数据。
