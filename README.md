@@ -1,13 +1,20 @@
 This is a website application project for NEU CS5004 Class Group Project.
+
 This project is based on Spring Boot 2023 version. We used the latest Spring Data JPA to implement database part.
+
 
 The website link: 
 
 onkitchen.online
 
+
 Developers: 
 
 Liuyi Yang, Xiaofeng Zhao, Junhui Su
+
+
+The corresponding front end link:
+https://github.com/shankswhite/Food-Web-App
 
 How to run:
 1. For Unit Test:
